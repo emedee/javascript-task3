@@ -24,4 +24,4 @@ integerReplacement = (integer) => {
     console.log(array)
 }
 integerReplacement(100)
-integerReplacement(60)
+integerReplacement(30)
