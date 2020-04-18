@@ -2,7 +2,7 @@ integerReplacement = (integer) => {
     let array = []
     for(let i = 1; i <= integer; i ++){
         let replacement = undefined
-        if((i % 3 === 0) && (i % 5 ===0) && (i % 2 === 0)){
+        if((i % 2 === 0) && (i % 3 ===0) && (i % 5 === 0)){
             replacement = "yu-gi-oh"
         }else if((i % 2 === 0) && (i % 3 ===0)){
             replacement = "yu-gi"
